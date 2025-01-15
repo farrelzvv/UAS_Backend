@@ -11,7 +11,7 @@ app.use(express.json());
 // Gunakan router
 app.use("/api", router); 
 
-// Tentukan port aplikasi
+// Menentukan port aplikasi
 app.listen(3000, () => {
   console.log("Server berjalan di port 3000");
 });
